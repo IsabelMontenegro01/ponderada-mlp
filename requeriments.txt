@@ -1,0 +1,7 @@
+numpy>=1.24
+matplotlib>=3.7
+scikit-learn>=1.3
+# Apenas um dos dois abaixo é necessário para carregar o MNIST:
+tensorflow>=2.13   # ou remova e use torchvision
+# torch>=2.0
+# torchvision>=0.15
