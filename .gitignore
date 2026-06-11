@@ -1,0 +1,51 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Dados MNIST (baixados automaticamente, não precisam versionar)
+*.gz
+*.ubyte
+mnist/
+MNIST/
+raw/
+processed/
+# Pasta do torchvision/keras cache
+~/.keras/
+data/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs grandes (mantenha só os plots finais)
+# results/  ← não ignore, queremos versionar os plots
+
+# TensorFlow/Torch logs
+logs/
+runs/
+lightning_logs/
